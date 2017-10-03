@@ -2,6 +2,7 @@
 How to get time and use SETENV variable for Time Zones and DST
 
 See:
+
 https://www.gnu.org/software/libc/manual/html_node/TZ-Variable.html
 
  GMTGMT-1, M3.4.0/1,M10.4.0/2
@@ -17,7 +18,8 @@ https://www.gnu.org/software/libc/manual/html_node/TZ-Variable.html
  .4 is the forth occurrence of the day in the month when DST ends
  .0 is Sunday
  /2 is the time in hours when DST ends
- 
+
  // Set timezone to British DST
  setenv("TZ","GMTGMT-1,M3.4.0/01,M10.4.0/02",1);
-
+ 
+See: https://www.timeanddate.com/time/zones/  for your country code
