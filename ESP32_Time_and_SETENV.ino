@@ -27,7 +27,7 @@ void loop() {
   // 2:00:00 is the time
 
   // Set timezone to British DST
-  setenv("TZ", "GMT0GMT-1,M3.4.0/01,M10.4.0/02",1); // You must include '0' after first designator e.g. GMT0GMT-1, ',1' is true or ON
+  setenv("TZ", "GMT0BST,M3.4.0/01,M10.4.0/02",1); // You must include '0' after first designator e.g. GMT0GMT-1, ',1' is true or ON
   Serial.println("      UK Time = "+printLocalTime());
 
   // Set timezone to Eastern Standard Time
