@@ -7,6 +7,8 @@ https://github.com/espressif/esp-idf/blob/master/examples/protocols/sntp/README.
 
 https://www.gnu.org/software/libc/manual/html_node/TZ-Variable.html
 
+Time-zones: https://github.com/nayarsystems/posix_tz_db/blob/master/zones.csv
+
  GMTGMT-1, M3.4.0/1,M10.4.0/2
  GMTGMT-1 is the name of the time zone
  GMT-1 is the abbreviation used when DST is off
