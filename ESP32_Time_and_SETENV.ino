@@ -39,7 +39,7 @@ void loop() {
   Serial.println("  INDIAN Time = "+printLocalTime());
   
   // Set timezone to China Standard Time
-  setenv("TZ", "CST-8CDT-9,M4.2.0/2,M9.2.0/3", 1);
+  setenv("TZ", "CST-8CDT-8,M4.2.0/2,M9.2.0/3", 1);
   Serial.println("  CHINA Time  = "+printLocalTime());
   Serial.println();
   delay(2000);
